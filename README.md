@@ -111,22 +111,9 @@ log_assets
 
 The model is intended to estimate whether AI-related disclosure is associated with debt growth after controlling for other company characteristics.
 
-Conceptually, the model is:
-\[
-\text{Debt Growth}
-=
-b_0
-+
-b_1(\text{AI Mentions})
-+
-b_2(\text{Revenue Growth})
-+
-b_3(\text{Capex-to-Revenue})
-+
-b_4(\text{Operating Margin})
-+
-b_5(\text{Company Size})
-\]
+Conceptually, the model is: Estimated Debt Growth = b0 + b1(AI Mentions) + b2(Revenue Growth) + b3(Capex-to-Revenue) + b4(Operating Margin) + b5(Company Size) + Error
+
+
 Regression statistics
 The script reports:
 - R-squared
